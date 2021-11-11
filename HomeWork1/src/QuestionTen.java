@@ -12,6 +12,9 @@ public class QuestionTen {
         int counter2 = 1;
         boolean isFinished = false;
 
+        //look at this. im making a change. so it will update the git with this comment
+        //you see that iyontij chooding the changed file only to push
+
 
         while (isFinished == false) {
             System.out.println("Player one made your guess: ");
