@@ -27,7 +27,7 @@ public class QuestionNine {
     }
 
     public static boolean checkForPrimeNumber(int numberForCheck) {
-        boolean result;
+
         boolean isPrime = true;
 
         if (numberForCheck==1){

@@ -29,7 +29,7 @@ public class QuestionSix {
 
         for (int i = 0 ; i < arrayOfNumbers; i++){
             System.out.print(firstNumInTheSeries + count + ", ");
-            count = count + differenceNumberInTheSeries;
+            count += differenceNumberInTheSeries;
         }
     }
 }

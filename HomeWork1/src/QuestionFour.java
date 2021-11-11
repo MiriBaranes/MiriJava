@@ -13,8 +13,7 @@ public class QuestionFour {
         double root = ((Math.pow(b,2)) - 4 * a * c);
         double solutionRoot = Math.sqrt(root);
         double result1 = ((-b + solutionRoot)/2*a);
-        double result2 = ((-b - solutionRoot)/2*a);
-
+        double result2 = ((-b - solutionRoot)/2*a); // ARE YOU SURE ???  כן >ננסה
         if (root < 0) {
             System.out.println("There is no solution");
         }

@@ -9,9 +9,10 @@ public class Q2 {
         System.out.println("enter the second number");
         int secondNumber = scanner.nextInt();
         int sum = firstNumber + secondNumber;
+
         if (sum % 2 == 0) {
 
-            System.out.println("The sum is double");
+            System.out.println("The sum is even");
         } else {
 
             System.out.println("The sum is odd");

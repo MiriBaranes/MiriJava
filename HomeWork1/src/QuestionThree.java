@@ -11,6 +11,7 @@ public class QuestionThree {
         int userInput3 = scanner.nextInt();
         int max, mid, min;
 
+
         if (userInput1 >= userInput2 && userInput1 >= userInput3) {
             max = userInput1;
             if (userInput2 >= userInput3) {
